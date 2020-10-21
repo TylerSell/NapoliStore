@@ -1,4 +1,5 @@
 class User < ApplicationRecord
+    
     has_secure_password
     
     has_many :transactions
@@ -9,4 +10,5 @@ class User < ApplicationRecord
     validates :email, :uniqueness => { :case_sensitive => false }, :format => { :with => URI::MailTo::EMAIL_REGEXP }
     validates :password, :length => { :within => 6..40, :message => "Password must be between 6 and 40 characters" }, :on => :create
     validates :password, :length => { :within => 6..40, :message => "Password must be between 6 and 40 characters" }, :on => :update, :unless => :password.blank?
+
 end
