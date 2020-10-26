@@ -5,5 +5,7 @@ class CartsController < ApplicationController
         render json: products
     end
 
-    
+    def create
+        cart = Cart.build()
+    end
 end
