@@ -11,6 +11,20 @@ class CreateProducts < ActiveRecord::Migration[6.0]
       t.string :detail_4
       t.string :detail_5
       t.string :detail_6
+      t.string :detail_7
+      t.string :detail_8
+      t.string :detail_9
+      t.string :detail_10
+      t.string :detail_11
+      t.string :detail_12
+      t.string :detail_13
+      t.string :detail_14
+      t.string :detail_15
+      t.string :detail_16
+      t.string :detail_17
+      t.string :detail_18
+      t.string :detail_19
+      t.string :detail_20
       t.string :quantity_sm
       t.string :quantity_med
       t.string :quantity_large
