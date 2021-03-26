@@ -63,3 +63,67 @@ code {
 .navbar__end {
   margin-right: 5rem;
 }
+
+.hr__medLength {
+  width: 40%;
+  margin: auto;
+  height: 1px;
+  border: none;
+  background: -webkit-gradient(linear, 0 0, 100% 0, from(transparent), to(transparent), color-stop(50%, black));
+}
+
+.footer__grid {
+  width: 66.6%;
+  margin: auto;
+  display: flex;
+}
+
+.footer__section {
+  display: flex;
+  flex-direction: column;
+  width: 33.3%;
+  margin-top: 30px;
+  margin-left: 0px;
+  margin-right: 0px;
+  padding: 20px 0px;
+  min-height: 100px;
+}
+
+.footer__link {
+  text-decoration: none;
+  color: black;
+  margin: 0px 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+/* .middle__section {
+  text-align: center;
+} */
+
+.social__link {
+  display: flex;
+  align-items: center;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  margin-left: 30%;
+}
+
+.footer__socialLink {
+  text-decoration: none;
+  color: black;
+  text-align: center;
+}
+
+.icon__centered {
+  text-align: center;
+}
+
+.right__section {
+  text-align: right;
+}
+
+.footer__text {
+  padding-right: 10px;
+  margin-top: 8px;
+}
