@@ -29,17 +29,27 @@ code {
 
 .header__logo {
   width: 150px;
+  margin-bottom: 0;
+  padding-bottom: 0;
 }
 
 .navbar__title {
   margin-right: auto;
   margin-left: 5rem;
-  font-size: 160%;
-  padding: 12px 16px;
-  font-family: Montserrat, sans-serif;
+  font-size: 14px;
+  padding: 0px 12px;
+  font-family: Arial, Helvetica, sans-serif, sans-serif;
   font-weight: 600;
   font-style: normal;
-  letter-spacing: 0.1em;
+  letter-spacing: 0.3em;
+  display: flex;
+  flex-direction: column;
+}
+
+.logo__secondary {
+  text-align: center;
+  margin-top: 0;
+  padding-top: 0;
 }
 
 .navbar__item {
